@@ -1,0 +1,39 @@
+One frame of data include 36 bytes ,now i will explain each byte:
+
+No.     Byte     explain
+1        AA      sync byte 
+2        AA      sync byte 
+3        20      conversion 20 to decimal is 32,means 32 payload,not include AA AA 20,SUM
+4        02      fixed value,that means the next byte is signal value
+5        C8      signal value
+6        83      means EEG Power start 
+7        18      conversion 18 to decimal is 24,means EEG Power have 24 bytes
+8        18      Delta 1/3
+9        D4      Delta 2/3
+10       8B      Delta 3/3
+11       13      Theta 1/3
+12       D1      Theta 2/3
+13       69      Theta 3/3
+14       02      Low Alpha 1/3
+15       58      Low Alpha 2/3
+16       C1      Low Alpha 3/3
+17	      17      High Alpha 1/3
+18       3B      High Alpha 2/3
+19       DC      High Alpha 3/3
+20       02      Low Beta 1/3
+21       50      Low Beta 2/3
+22       00      Low Beta 3/3  
+23       03      High Beta 1/3
+24       CB      High Beta 2/3
+25       9D      High Beta 3/3
+26       03      Low Gamma 1/3
+27       6D      Low Gamma 2/3
+28       3B      Low Gamma 3/3
+29       03      Middle Gamma 1/3
+30       7E      Middle Gamma 2/3
+31       89      Middle Gamma 3/3
+32       04      fixed value,that means the next byte is attention value
+33       00      attention value
+34       05      fixed value,that means the next byte is meditation value
+35       00      meditation value
+36       D5      SUM(check value)
