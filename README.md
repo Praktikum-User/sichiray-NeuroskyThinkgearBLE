@@ -11,3 +11,4 @@ You can directly buy the MindWave BLE from following online store:
 World: [**bit.ly/MindwaveBLE**](https://www.aliexpress.com/store/product/MindWave-BLE-4-0-EEG-HeadSet-With-NeuroSky-ThinkGear-Technology/837819_32767581269.html)        United States:[**bit.ly/mindwaveBLE**](https://www.amazon.com/dp/B01MXMK6I8)
 
 中国客户的购买链接：[**bit.ly/SichirayBLE**](https://item.taobao.com/item.htm?id=542843798508)
+中文版 IOS测试软件链接 https://fir.im/yinianxiyou
